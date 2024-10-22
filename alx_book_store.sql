@@ -1,6 +1,6 @@
 -- SQL Script to create the alx_book_store
 -- Create the dtatbase with the name alx_book_store
-CREATE DATABASE alx_book_store;
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 USE alx_book_store;
 -- Create the Authors table:Stores information about authors.
 CREATE TABLE Authors (
